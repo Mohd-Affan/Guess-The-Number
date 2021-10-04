@@ -4,8 +4,6 @@ import {TextInput} from 'react-native-gesture-handler';
 import colors from '../constants/colors';
 
 export default function Input(props) {
-  console.log(props);
-
   return <TextInput {...props} style={{...styles.input, ...props.style}} />; //{...props} should be written before {...styles.input} so that styles.input can overwrite the props. Just like ...props.style will overwrite the ...styles.input
 }
 
