@@ -57,6 +57,7 @@ and g means globally, that is replace it if user types something that is not b/w
           <Text style={styles.startButtonText}>Start Game</Text>
         </TouchableOpacity>
       </Card>
+      // In line 53, we are displaying the selected number or the chosen number/enteredValue state on click of confirm button. And in line 43 we are setting this particular 'selectedNumber' to be that chosenNumber or enteredValue. so that whatever user has entered gets displayed on click of confirm button.
     );
   }
 
